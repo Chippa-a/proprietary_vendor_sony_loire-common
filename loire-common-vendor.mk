@@ -135,6 +135,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-common/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
     vendor/sony/loire-common/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/sony/loire-common/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
+    vendor/sony/loire-common/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
+    vendor/sony/loire-common/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/sony/loire-common/proprietary/vendor/lib64/libcamera_clientsemc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_clientsemc.so \
     vendor/sony/loire-common/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/sony/loire-common/proprietary/lib64/libfpc_oem.so:system/lib64/libfpc_oem.so \
