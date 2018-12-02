@@ -753,7 +753,7 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libloc_api_v02 \
     QtiTelephonyService \
-    ims \
     CNEService \
+    ims \
     qcrilmsgtunnel \
     TimeService
