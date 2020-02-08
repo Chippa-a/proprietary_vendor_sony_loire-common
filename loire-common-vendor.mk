@@ -6,71 +6,92 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/sony/loire-common
 
 PRODUCT_COPY_FILES += \
+    vendor/sony/loire-common/proprietary/odm/lib/libchromatix_imx300_common.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx300_common.so \
+    vendor/sony/loire-common/proprietary/odm/lib/libchromatix_imx300_cpp_liveshot.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx300_cpp_liveshot.so \
+    vendor/sony/loire-common/proprietary/odm/lib/libchromatix_imx300_cpp_preview.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx300_cpp_preview.so \
+    vendor/sony/loire-common/proprietary/odm/lib/libchromatix_imx300_cpp_snapshot.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx300_cpp_snapshot.so \
+    vendor/sony/loire-common/proprietary/odm/lib/libchromatix_imx300_cpp_video.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx300_cpp_video.so \
+    vendor/sony/loire-common/proprietary/odm/lib/libchromatix_imx300_default_preview_bu64747.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx300_default_preview_bu64747.so \
+    vendor/sony/loire-common/proprietary/odm/lib/libchromatix_imx300_default_video_bu64747.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx300_default_video_bu64747.so \
+    vendor/sony/loire-common/proprietary/odm/lib/libchromatix_imx300_postproc.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx300_postproc.so \
+    vendor/sony/loire-common/proprietary/odm/lib/libchromatix_imx300_preview.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx300_preview.so \
+    vendor/sony/loire-common/proprietary/odm/lib/libchromatix_imx300_snapshot.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx300_snapshot.so \
+    vendor/sony/loire-common/proprietary/odm/lib/libmmcamera_imx300.so:$(TARGET_COPY_OUT_ODM)/lib/libmmcamera_imx300.so \
+    vendor/sony/loire-common/proprietary/system_ext/lib64/com.quicinc.cne.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.api@1.0.so \
+    vendor/sony/loire-common/proprietary/system_ext/lib64/com.quicinc.cne.api@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.api@1.1.so \
+    vendor/sony/loire-common/proprietary/system_ext/lib64/com.quicinc.cne.constants@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.constants@1.0.so \
+    vendor/sony/loire-common/proprietary/system_ext/lib64/com.quicinc.cne.constants@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.constants@2.0.so \
+    vendor/sony/loire-common/proprietary/system_ext/lib64/com.quicinc.cne.constants@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.constants@2.1.so \
+    vendor/sony/loire-common/proprietary/system_ext/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimscamera_jni.so \
+    vendor/sony/loire-common/proprietary/system_ext/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsmedia_jni.so \
+    vendor/sony/loire-common/proprietary/system/etc/cne/Nexus/ATT/ATT_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ATT/ATT_profiles.xml \
+    vendor/sony/loire-common/proprietary/system/etc/cne/Nexus/ROW/ROW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ROW/ROW_profiles.xml \
+    vendor/sony/loire-common/proprietary/system/etc/cne/Nexus/VZW/VZW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/VZW/VZW_profiles.xml \
     vendor/sony/loire-common/proprietary/vendor/firmware/BCM4345C0.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM4345C0.hcd \
-    vendor/sony/loire-common/proprietary/etc/firmware/cmnlib.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cmnlib.b00 \
-    vendor/sony/loire-common/proprietary/etc/firmware/cmnlib.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cmnlib.b01 \
-    vendor/sony/loire-common/proprietary/etc/firmware/cmnlib.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cmnlib.b02 \
-    vendor/sony/loire-common/proprietary/etc/firmware/cmnlib.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cmnlib.b03 \
-    vendor/sony/loire-common/proprietary/etc/firmware/cmnlib.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cmnlib.mdt \
-    vendor/sony/loire-common/proprietary/etc/firmware/fidocrypto.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidocrypto.b00 \
-    vendor/sony/loire-common/proprietary/etc/firmware/fidocrypto.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidocrypto.b01 \
-    vendor/sony/loire-common/proprietary/etc/firmware/fidocrypto.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidocrypto.b02 \
-    vendor/sony/loire-common/proprietary/etc/firmware/fidocrypto.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidocrypto.b03 \
-    vendor/sony/loire-common/proprietary/etc/firmware/fidocrypto.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidocrypto.mdt \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzattest.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzattest.b00 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzattest.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzattest.b01 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzattest.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzattest.b02 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzattest.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzattest.b03 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzattest.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzattest.mdt \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzfingerprint.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzfingerprint.b00 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzfingerprint.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzfingerprint.b01 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzfingerprint.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzfingerprint.b02 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzfingerprint.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzfingerprint.b03 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzfingerprint.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzfingerprint.mdt \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzhdcp.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzhdcp.b00 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzhdcp.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzhdcp.b01 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzhdcp.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzhdcp.b02 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzhdcp.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzhdcp.b03 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzhdcp.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzhdcp.mdt \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzlibasb.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzlibasb.b00 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzlibasb.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzlibasb.b01 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzlibasb.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzlibasb.b02 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzlibasb.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzlibasb.b03 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzlibasb.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzlibasb.mdt \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzsuntory.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzsuntory.b00 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzsuntory.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzsuntory.b01 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzsuntory.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzsuntory.b02 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzsuntory.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzsuntory.b03 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzsuntory.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzsuntory.mdt \
-    vendor/sony/loire-common/proprietary/etc/firmware/tztpm.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tztpm.b00 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tztpm.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tztpm.b01 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tztpm.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tztpm.b02 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tztpm.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tztpm.b03 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tztpm.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tztpm.mdt \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzwidevine.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwidevine.b00 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzwidevine.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwidevine.b01 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzwidevine.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwidevine.b02 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzwidevine.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwidevine.b03 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzwidevine.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwidevine.mdt \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzwvcpybuf.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwvcpybuf.b00 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzwvcpybuf.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwvcpybuf.b01 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzwvcpybuf.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwvcpybuf.b02 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzwvcpybuf.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwvcpybuf.b03 \
-    vendor/sony/loire-common/proprietary/etc/firmware/tzwvcpybuf.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwvcpybuf.mdt \
-    vendor/sony/loire-common/proprietary/etc/firmware/venus-v1.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b00 \
-    vendor/sony/loire-common/proprietary/etc/firmware/venus-v1.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b01 \
-    vendor/sony/loire-common/proprietary/etc/firmware/venus-v1.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b02 \
-    vendor/sony/loire-common/proprietary/etc/firmware/venus-v1.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b03 \
-    vendor/sony/loire-common/proprietary/etc/firmware/venus-v1.b04:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b04 \
-    vendor/sony/loire-common/proprietary/etc/firmware/venus-v1.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.mbn \
-    vendor/sony/loire-common/proprietary/etc/firmware/venus-v1.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.mdt \
-    vendor/sony/loire-common/proprietary/etc/firmware/venus.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b00 \
-    vendor/sony/loire-common/proprietary/etc/firmware/venus.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b01 \
-    vendor/sony/loire-common/proprietary/etc/firmware/venus.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b02 \
-    vendor/sony/loire-common/proprietary/etc/firmware/venus.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b03 \
-    vendor/sony/loire-common/proprietary/etc/firmware/venus.b04:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b04 \
-    vendor/sony/loire-common/proprietary/etc/firmware/venus.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.mbn \
-    vendor/sony/loire-common/proprietary/etc/firmware/venus.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.mdt \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/cmnlib.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cmnlib.b00 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/cmnlib.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cmnlib.b01 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/cmnlib.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cmnlib.b02 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/cmnlib.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cmnlib.b03 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/cmnlib.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cmnlib.mdt \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/fidocrypto.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidocrypto.b00 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/fidocrypto.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidocrypto.b01 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/fidocrypto.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidocrypto.b02 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/fidocrypto.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidocrypto.b03 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/fidocrypto.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidocrypto.mdt \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzattest.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzattest.b00 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzattest.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzattest.b01 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzattest.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzattest.b02 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzattest.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzattest.b03 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzattest.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzattest.mdt \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzfingerprint.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzfingerprint.b00 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzfingerprint.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzfingerprint.b01 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzfingerprint.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzfingerprint.b02 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzfingerprint.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzfingerprint.b03 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzfingerprint.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzfingerprint.mdt \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzhdcp.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzhdcp.b00 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzhdcp.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzhdcp.b01 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzhdcp.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzhdcp.b02 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzhdcp.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzhdcp.b03 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzhdcp.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzhdcp.mdt \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzlibasb.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzlibasb.b00 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzlibasb.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzlibasb.b01 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzlibasb.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzlibasb.b02 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzlibasb.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzlibasb.b03 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzlibasb.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzlibasb.mdt \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzsuntory.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzsuntory.b00 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzsuntory.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzsuntory.b01 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzsuntory.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzsuntory.b02 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzsuntory.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzsuntory.b03 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzsuntory.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzsuntory.mdt \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tztpm.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tztpm.b00 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tztpm.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tztpm.b01 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tztpm.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tztpm.b02 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tztpm.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tztpm.b03 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tztpm.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tztpm.mdt \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzwidevine.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwidevine.b00 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzwidevine.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwidevine.b01 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzwidevine.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwidevine.b02 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzwidevine.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwidevine.b03 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzwidevine.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwidevine.mdt \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzwvcpybuf.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwvcpybuf.b00 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzwvcpybuf.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwvcpybuf.b01 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzwvcpybuf.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwvcpybuf.b02 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzwvcpybuf.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwvcpybuf.b03 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/tzwvcpybuf.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwvcpybuf.mdt \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/venus-v1.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b00 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/venus-v1.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b01 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/venus-v1.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b02 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/venus-v1.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b03 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/venus-v1.b04:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b04 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/venus-v1.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.mbn \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/venus-v1.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.mdt \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/venus.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b00 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/venus.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b01 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/venus.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b02 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/venus.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b03 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/venus.b04:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b04 \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/venus.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.mbn \
+    vendor/sony/loire-common/proprietary/system/etc/firmware/venus.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.mdt \
     vendor/sony/loire-common/proprietary/vendor/firmware/wlan/bcmdhd/fw_bcmdhd.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/bcmdhd/fw_bcmdhd.bin \
     vendor/sony/loire-common/proprietary/vendor/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin \
     vendor/sony/loire-common/proprietary/system_ext/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qcrilhook.xml \
@@ -94,30 +115,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-common/proprietary/system_ext/lib64/lib-imsvtutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvtutils.so \
     vendor/sony/loire-common/proprietary/system_ext/lib64/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdiag_system.so \
     vendor/sony/loire-common/proprietary/system_ext/lib64/librcc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/librcc.so \
-    vendor/sony/loire-common/proprietary/lib64/libtpm.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libtpm.so \
+    vendor/sony/loire-common/proprietary/system/lib64/libtpm.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libtpm.so \
     vendor/sony/loire-common/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@1.0.so \
-    vendor/sony/loire-common/proprietary/lib64/vendor.semc.hardware.secd@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.semc.hardware.secd@1.0.so \
-    vendor/sony/loire-common/proprietary/odm/lib/libchromatix_imx300_common.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx300_common.so \
-    vendor/sony/loire-common/proprietary/odm/lib/libchromatix_imx300_cpp_liveshot.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx300_cpp_liveshot.so \
-    vendor/sony/loire-common/proprietary/odm/lib/libchromatix_imx300_cpp_preview.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx300_cpp_preview.so \
-    vendor/sony/loire-common/proprietary/odm/lib/libchromatix_imx300_cpp_snapshot.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx300_cpp_snapshot.so \
-    vendor/sony/loire-common/proprietary/odm/lib/libchromatix_imx300_cpp_video.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx300_cpp_video.so \
-    vendor/sony/loire-common/proprietary/odm/lib/libchromatix_imx300_default_preview_bu64747.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx300_default_preview_bu64747.so \
-    vendor/sony/loire-common/proprietary/odm/lib/libchromatix_imx300_default_video_bu64747.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx300_default_video_bu64747.so \
-    vendor/sony/loire-common/proprietary/odm/lib/libchromatix_imx300_postproc.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx300_postproc.so \
-    vendor/sony/loire-common/proprietary/odm/lib/libchromatix_imx300_preview.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx300_preview.so \
-    vendor/sony/loire-common/proprietary/odm/lib/libchromatix_imx300_snapshot.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx300_snapshot.so \
-    vendor/sony/loire-common/proprietary/odm/lib/libmmcamera_imx300.so:$(TARGET_COPY_OUT_ODM)/lib/libmmcamera_imx300.so \
-    vendor/sony/loire-common/proprietary/system_ext/lib64/com.quicinc.cne.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.api@1.0.so \
-    vendor/sony/loire-common/proprietary/system_ext/lib64/com.quicinc.cne.api@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.api@1.1.so \
-    vendor/sony/loire-common/proprietary/system_ext/lib64/com.quicinc.cne.constants@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.constants@1.0.so \
-    vendor/sony/loire-common/proprietary/system_ext/lib64/com.quicinc.cne.constants@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.constants@2.0.so \
-    vendor/sony/loire-common/proprietary/system_ext/lib64/com.quicinc.cne.constants@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.constants@2.1.so \
-    vendor/sony/loire-common/proprietary/system_ext/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimscamera_jni.so \
-    vendor/sony/loire-common/proprietary/system_ext/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsmedia_jni.so \
-    vendor/sony/loire-common/proprietary/system/etc/cne/Nexus/ATT/ATT_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ATT/ATT_profiles.xml \
-    vendor/sony/loire-common/proprietary/system/etc/cne/Nexus/ROW/ROW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ROW/ROW_profiles.xml \
-    vendor/sony/loire-common/proprietary/system/etc/cne/Nexus/VZW/VZW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/VZW/VZW_profiles.xml \
+    vendor/sony/loire-common/proprietary/system/lib64/vendor.semc.hardware.secd@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.semc.hardware.secd@1.0.so \
     vendor/sony/loire-common/proprietary/system_ext/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptXHD_encoder.so \
     vendor/sony/loire-common/proprietary/system_ext/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptX_encoder.so \
     vendor/sony/loire-common/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
@@ -639,11 +639,11 @@ PRODUCT_PACKAGES += \
     IWlanService \
     TimeService \
     QtiTelephonyService \
-    qcrilmsgtunnel \
     ims \
+    qcrilmsgtunnel \
+    qti-telephony-common \
     QtiTelephonyServicelibrary \
     qcrilhook \
-    qti-telephony-common \
     android.hardware.gnss@2.0-service-qti \
     manifest_android.hardware.drm@1.3-service.widevine \
     vendor.qti.gnss@3.0-service
