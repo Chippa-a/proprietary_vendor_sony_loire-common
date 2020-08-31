@@ -86,8 +86,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-common/proprietary/etc/firmware/venus.b04:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b04 \
     vendor/sony/loire-common/proprietary/etc/firmware/venus.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.mbn \
     vendor/sony/loire-common/proprietary/etc/firmware/venus.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.mdt \
-    vendor/sony/loire-common/proprietary/etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin \
-    vendor/sony/loire-common/proprietary/etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin \
+    vendor/sony/loire-common/proprietary/vendor/firmware/wlan/bcmdhd/fw_bcmdhd.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/bcmdhd/fw_bcmdhd.bin \
+    vendor/sony/loire-common/proprietary/vendor/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin \
     vendor/sony/loire-common/proprietary/etc/flashled_calc_parameters.cfg:$(TARGET_COPY_OUT_SYSTEM)/etc/flashled_calc_parameters.cfg \
     vendor/sony/loire-common/proprietary/etc/permissions/cneapiclient.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/cneapiclient.xml \
     vendor/sony/loire-common/proprietary/etc/permissions/com.quicinc.cne.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.quicinc.cne.xml \
