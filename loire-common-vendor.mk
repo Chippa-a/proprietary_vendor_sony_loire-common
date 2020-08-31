@@ -18,7 +18,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/sony/loire-common
 
 PRODUCT_COPY_FILES += \
-    vendor/sony/loire-common/proprietary/etc/firmware/BCM4345C0.hcd:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/BCM4345C0.hcd \
+    vendor/sony/loire-common/proprietary/vendor/firmware/BCM4345C0.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM4345C0.hcd \
     vendor/sony/loire-common/proprietary/etc/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/a530_pfp.fw \
     vendor/sony/loire-common/proprietary/etc/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/a530_pm4.fw \
     vendor/sony/loire-common/proprietary/etc/firmware/cmnlib.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cmnlib.b00 \
