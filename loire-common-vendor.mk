@@ -384,7 +384,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-common/proprietary/vendor/lib/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdnotifier.so \
     vendor/sony/loire-common/proprietary/vendor/lib/libperfconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfconfig.so \
     vendor/sony/loire-common/proprietary/vendor/lib/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfgluelayer.so \
-    vendor/sony/loire-common/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
     vendor/sony/loire-common/proprietary/vendor/lib/libplstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libplstorage.so \
     vendor/sony/loire-common/proprietary/vendor/lib/libprotobuf-c.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-c.so \
     vendor/sony/loire-common/proprietary/vendor/lib/libprotobuf-cpp-lite-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-lite-3.9.1.so \
