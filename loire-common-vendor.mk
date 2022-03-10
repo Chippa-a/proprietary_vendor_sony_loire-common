@@ -80,16 +80,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-common/proprietary/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_libpermissions.xml \
     vendor/sony/loire-common/proprietary/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_permissions.xml \
     vendor/sony/loire-common/proprietary/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/telephonyservice.xml \
-    vendor/sony/loire-common/proprietary/framework/QtiTelephonyServicelibrary.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/QtiTelephonyServicelibrary.jar \
-    vendor/sony/loire-common/proprietary/framework/cneapiclient.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/cneapiclient.jar \
-    vendor/sony/loire-common/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.api-V1.0-java.jar \
-    vendor/sony/loire-common/proprietary/framework/com.quicinc.cne.api-V1.1-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.api-V1.1-java.jar \
-    vendor/sony/loire-common/proprietary/framework/com.quicinc.cne.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.jar \
-    vendor/sony/loire-common/proprietary/framework/com.quicinc.cne.server-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.server-V1.0-java.jar \
-    vendor/sony/loire-common/proprietary/framework/com.quicinc.cne.server-V2.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.server-V2.0-java.jar \
-    vendor/sony/loire-common/proprietary/framework/com.quicinc.cne.server-V2.1-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.server-V2.1-java.jar \
-    vendor/sony/loire-common/proprietary/framework/com.quicinc.cne.server-V2.2-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.server-V2.2-java.jar \
-    vendor/sony/loire-common/proprietary/framework/qcrilhook.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/qcrilhook.jar \
     vendor/sony/loire-common/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/sony/loire-common/proprietary/lib/lib-imscamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-imscamera.so \
     vendor/sony/loire-common/proprietary/lib/lib-imsvideocodec.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-imsvideocodec.so \
@@ -125,7 +115,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-common/proprietary/odm/lib/libchromatix_imx300_preview.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx300_preview.so \
     vendor/sony/loire-common/proprietary/odm/lib/libchromatix_imx300_snapshot.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx300_snapshot.so \
     vendor/sony/loire-common/proprietary/odm/lib/libmmcamera_imx300.so:$(TARGET_COPY_OUT_ODM)/lib/libmmcamera_imx300.so \
-    vendor/sony/loire-common/proprietary/product/framework/qti-telephony-common.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/qti-telephony-common.jar \
     vendor/sony/loire-common/proprietary/system_ext/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptXHD_encoder.so \
     vendor/sony/loire-common/proprietary/system_ext/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptX_encoder.so \
     vendor/sony/loire-common/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
@@ -213,11 +202,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-common/proprietary/vendor/etc/security/idd_config.pem:$(TARGET_COPY_OUT_VENDOR)/etc/security/idd_config.pem \
     vendor/sony/loire-common/proprietary/vendor/etc/security/idd_report.pem:$(TARGET_COPY_OUT_VENDOR)/etc/security/idd_report.pem \
     vendor/sony/loire-common/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
-    vendor/sony/loire-common/proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml \
     vendor/sony/loire-common/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
     vendor/sony/loire-common/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
     vendor/sony/loire-common/proprietary/vendor/firmware/cpp_firmware_v1_5_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_1.fw \
-    vendor/sony/loire-common/proprietary/vendor/framework/qti-vzw-ims-internal.jar:$(TARGET_COPY_OUT_VENDOR)/framework/qti-vzw-ims-internal.jar \
     vendor/sony/loire-common/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so \
     vendor/sony/loire-common/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so \
     vendor/sony/loire-common/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.quicinc.cne.api@1.0.so \
@@ -663,4 +650,17 @@ PRODUCT_PACKAGES += \
     CNEService \
     ims \
     qcrilmsgtunnel \
-    TimeService
+    TimeService \
+    QtiTelephonyServicelibrary \
+    cneapiclient \
+    com.quicinc.cne.api-V1.0-java \
+    com.quicinc.cne.api-V1.1-java \
+    com.quicinc.cne \
+    com.quicinc.cne.server-V1.0-java \
+    com.quicinc.cne.server-V2.0-java \
+    com.quicinc.cne.server-V2.1-java \
+    com.quicinc.cne.server-V2.2-java \
+    qcrilhook \
+    qti-vzw-ims-internal \
+    qti-telephony-common \
+    manifest_android.hardware.drm@1.3-service.widevine
