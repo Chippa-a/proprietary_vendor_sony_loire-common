@@ -1,0 +1,5 @@
+service vendor.updatemiscta /vendor/bin/updatemiscta
+    class main
+    user oem_2991
+    group oem_2993 system
+    oneshot
