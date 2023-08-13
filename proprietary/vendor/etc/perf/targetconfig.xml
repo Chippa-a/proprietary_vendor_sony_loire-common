@@ -41,15 +41,15 @@
          of the target device, we decide which configs to consider. -->
 
     <Config1>
-
          <TargetInfo
              Target="msm8956"
              NumClusters="2"
              TotalNumCores="6"
              SocIds="266,274"
              SynCore="1"
+             CoreCtlCpu="4"
              MinCoreOnline="0"
-             GovInstanceType="1" />
+             CpufreqGov="1" />
 
          <ClustersInfo Id="0" NumCores="4" Type="little" />
          <ClustersInfo Id="1" NumCores="2" Type="big" />
@@ -57,15 +57,15 @@
     </Config1>
 
     <Config2>
-
          <TargetInfo
              Target="msm8976"
              NumClusters="2"
              TotalNumCores="8"
              SocIds="277,278"
              SynCore="1"
+             CoreCtlCpu="4"
              MinCoreOnline="0"
-             GovInstanceType="1" />
+             CpufreqGov="1" />
 
          <ClustersInfo Id="0" NumCores="4" Type="little" />
          <ClustersInfo Id="1" NumCores="4" Type="big" />
